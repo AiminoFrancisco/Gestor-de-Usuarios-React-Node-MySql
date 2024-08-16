@@ -1,0 +1,68 @@
+/* Form.css */
+
+/* Contenedor del formulario */
+
+/* Estilo de la tarjeta */
+
+
+/* Estilo de la cabecera de la tarjeta */
+.card-body {
+  padding: 20px;
+}
+
+/* Estilo de los grupos de entrada */
+.input-group {
+  margin-bottom: 15px;
+}
+
+/* Estilo del texto de entrada */
+.input-group-text {
+  background-color: #9979d6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-weight: bold;
+}
+
+/* Estilo del campo de entrada */
+.form-control {
+  border-radius: 0 5px 5px 0;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los botones */
+.btn {
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo del botón para mostrar/ocultar la contraseña */
+.input-group-text {
+  cursor: pointer;
+}
+
+.input-group-text:hover {
+  background-color: #8561c5;
+}

@@ -1,0 +1,67 @@
+/* EmployeeTable.css */
+
+/* Estilo para la tabla */
+.table {
+    background-color: #2e2e2e; /* Fondo oscuro para la tabla */
+    color: #ffffff; /* Texto blanco */
+    border-radius: 8px;
+    overflow: hidden; /* Asegura que los bordes redondeados se apliquen */
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para el encabezado de la tabla */
+  .table thead th {
+    background-color: #4b3f72; /* Fondo para el encabezado de la tabla */
+    color: #ffffff; /* Texto blanco en el encabezado */
+    font-weight: bold;
+  }
+  
+  /* Estilo para las filas de la tabla */
+  .table tbody tr:nth-child(even) {
+    background-color: #3a3a3a; /* Fondo alterno para filas pares */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #575757; /* Fondo para fila al pasar el ratón */
+  }
+  
+  /* Estilo para las celdas de la tabla */
+  .table td {
+    padding: 10px;
+    vertical-align: middle;
+  }
+  
+  /* Estilo para los botones dentro de la tabla */
+  .btn-group .btn {
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 2px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn-group .btn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo para el botón de editar */
+  .btn-group .btn:nth-child(1) {
+    background-color: #FAF9A7; /* Color de fondo para el botón de editar */
+    color: #000000; /* Texto negro */
+  }
+  
+  .btn-group .btn:nth-child(1):hover {
+    background-color: #f0e600; /* Fondo amarillo al pasar el ratón */
+  }
+  
+  /* Estilo para el botón de eliminar */
+  .btn-group .btn:nth-child(2) {
+    background-color: #dc3545; /* Color de fondo para el botón de eliminar */
+    color: #ffffff; /* Texto blanco */
+  }
+  
+  .btn-group .btn:nth-child(2):hover {
+    background-color: #c82333; /* Fondo rojo oscuro al pasar el ratón */
+  }
+  
